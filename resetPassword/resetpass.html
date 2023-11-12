@@ -1,0 +1,135 @@
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Reset password</title>
+    <base href=".">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#20c997">
+    <link href="./css.css" rel="stylesheet">
+    <script src="./js.js"></script>
+    <link rel="stylesheet" href="./styles.1dc06c827e166ef3171f.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+
+
+    <style>
+        .mealsy-container[_ngcontent-eut-c77] {
+            overflow-x: hidden
+        }
+        
+        .checkout-btn[_ngcontent-eut-c77] {
+            width: 300px;
+            max-width: 100%
+        }
+        
+        .checkout-padding[_ngcontent-eut-c77] {
+            padding: 0 22px;
+            color: #4a4a4a
+        }
+        
+        .payment-type-btn[_ngcontent-eut-c77],
+        .left-indent[_ngcontent-eut-c77] {
+            margin-left: 26px
+        }
+        
+        .checkout-text[_ngcontent-eut-c77] {
+            font-size: 1.1em;
+            font-weight: 700;
+            margin-bottom: 14px;
+            margin-top: 14px
+        }
+        
+        .checkout-general-container[_ngcontent-eut-c77] {
+            padding-top: 20px;
+            padding-bottom: 14px
+        }
+        
+        .checkout-icons[_ngcontent-eut-c77] {
+            width: 20px;
+            height: 20px;
+            margin-left: -8px;
+            margin-right: 14px
+        }
+        
+        .checkout-general-text[_ngcontent-eut-c77] {
+            font-weight: 700;
+            font-size: .9em
+        }
+        
+        .personal-info[_ngcontent-eut-c77] {
+            border-bottom: 1px solid #edefee;
+            margin-bottom: 15px
+        }
+        
+        .Icon-fill[_ngcontent-eut-c77] {
+            fill: #222
+        }
+        
+        @media (max-width:576px) {
+            .cardType-ico[_ngcontent-eut-c77] {
+                margin-left: 0;
+                right: 5%
+            }
+        }
+        
+        .btn-auth-mobile[_ngcontent-eut-c77] {
+            top: 16px;
+            z-index: 0
+        }
+        
+        .btn-auth-mobile[_ngcontent-eut-c77],
+        .menu-sidebar[_ngcontent-eut-c77] {
+            position: absolute
+        }
+        
+        .menu-sidebar--active[_ngcontent-eut-c77] {
+            position: fixed
+        }
+        
+        @media (width:768px) and (height:1024px) {
+            .menu-sidebar[_ngcontent-eut-c77] {
+                position: fixed
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-mealsy1 clickup-chrome-ext_installed" style="width: 40%; margin-top: 10%; margin-left: auto; margin-right: auto;">
+    <form class="container forget-password-form" name="reset-password" method="post" id="reset-password" action="https://mealsy.ca/Registration/reset_password.php">
+        <div _ngcontent-eut-c77="" class="checkout-padding checkout-general-container bg-white">
+            <input type="hidden" value="'.$cid.'" name="companyId">
+            <input type="hidden" value="'.$code.'" name="code">
+            <span _ngcontent-eut-c77="" class="checkout-general-text">
+            <span _ngcontent-eut-c77="">Reset password</span>
+            </span>
+            <div _ngcontent-eut-c77="" class="left-indent mt-3">
+                <div _ngcontent-eut-c77="" class="clearfix personal-info">
+                    <label _ngcontent-eut-c77="" for="orderName" class="input-label mt-1 float-left cursor-pointer">
+                    <span _ngcontent-eut-c77=""> Email Address </span>
+                    <sup _ngcontent-eut-c77="" class="text-danger">*</sup>
+                </label>
+                    <input _ngcontent-eut-c77="" type="email" id="emailAddress" name="email" class="float-right faded-input ng-pristine ng-valid ng-touched form-control" placeholder="Your email address" required>
+                </div>
+                <div _ngcontent-eut-c77="" class="clearfix personal-info">
+                    <label _ngcontent-eut-c77="" for="phoneNumber" class="input-label mt-1 float-left cursor-pointer">
+                    <span _ngcontent-eut-c77="">  Password</span>
+                    <sup _ngcontent-eut-c77="" class="text-danger">*</sup>
+                </label>
+                    <input _ngcontent-eut-c77="" type="password" appphonemask="" id="password" name="password" data-minlength="6" maxlength="14" class="float-right faded-input ng-valid ng-touched ng-dirty form-control" placeholder="Your password" required dir="ltr">
+                </div>
+                <div _ngcontent-eut-c77="" class="clearfix personal-info">
+                    <label _ngcontent-eut-c77="" for="phoneNumber" class="input-label mt-1 float-left cursor-pointer">
+                    <span _ngcontent-eut-c77=""> Confirm Password</span>
+                    <sup _ngcontent-eut-c77="" class="text-danger">*</sup>
+                </label>
+                    <input _ngcontent-eut-c77="" data-match="#password" data-match-error="Whoops, these don\'t match" type="password" appphonemask="" id="confirmPassword" data-minlength="6" name="confirmPassword" maxlength="14" class="float-right faded-input ng-valid ng-touched ng-dirty form-control"
+                        placeholder="Your password" required dir="ltr">
+                </div>
+                <button _ngcontent-eut-c77="" type="submit" name="sign-in sigin-in-btn" class="btn btn-mealsy1 btn-large d-block mx-auto checkout-btn mt-5"><span _ngcontent-eut-c77="">Reset password</span></button>
+            </div>
+        </div>
+    </form>
+ 
+</body>
